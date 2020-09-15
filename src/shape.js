@@ -19,5 +19,20 @@
  * @returns {string} A string of hash characters describing a right triangle.
  */
 export function createRightTriangle (base) {
-  // TODO: Write your code here.
-}
+
+
+
+
+
+
+
+
+
+  /*  let createRightTriangle = ''
+
+  for (base = 0; base < base.length; base++) {
+    base += '#' + '\n'
+    let createRightTriangle = base
+  }
+  returns createRightTriangle
+}*/
