@@ -19,7 +19,6 @@
  * @returns {string} A string of hash characters describing a right triangle.
  */
 export function createRightTriangle (base) {
-
   let pyramid = ''
 
   for (let layer = 1; layer <= base; layer++) {
