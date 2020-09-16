@@ -20,19 +20,13 @@
  */
 export function createRightTriangle (base) {
 
+  let pyramid = ''
 
-
-
-
-
-
-
-
-  /*  let createRightTriangle = ''
-
-  for (base = 0; base < base.length; base++) {
-    base += '#' + '\n'
-    let createRightTriangle = base
+  for (let layer = 1; layer <= base; layer++) {
+    for (let brick = 1; brick <= layer; brick++) {
+      pyramid += '#'
+    }
+    pyramid += '\n'
   }
-  returns createRightTriangle
-}*/
+  return pyramid
+}
